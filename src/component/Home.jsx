@@ -11,6 +11,9 @@ import Mehala from '../img/profile/meghala.png';
 import Gowtham from '../img/profile/gowtham-bala.png';
 import Saran from '../img/profile/saranya.png';
 import Raj from '../img/profile/raj.png';
+import AIC from '../img/New/aic.png';
+import Anglo from '../img/New/anglofone.png';
+import fluid from '../img/New/pumps.png';
 function Home() {
   return (
     <div>
@@ -30,7 +33,7 @@ function Home() {
         </div>
         {/* services */}
         <div className='custom-service-banner' >
-            <h1 className='custom-title text-upp    ercase text-center pt-5 pb-5'>Project</h1>
+            <h1 className='custom-title text-uppercase text-center pt-5 pb-5'>Project</h1>
             <div className="container">
                 <div class="row">
                     <div class = "col-lg-3 col-sm-3 col-md-3 col-xl-3 col-xs-12 pb-5">
@@ -192,28 +195,29 @@ function Home() {
             <div class="container">
 
                 <div class="heading white-heading">
-                    Testimonial
+                    
+                    <h1 className='custom-title text-uppercase text-center'>Testimonial</h1>
                 </div>
                 <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
                 
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="testimonial4_slide">
-                                {/* <img src={Saran} className="img-circle img-responsive" /> */}
+                                <img src={ AIC } className="img-circle img-responsive" />
                                 <p>It felt like having an experienced team on our side which helped us develop our idea and our first investment .   </p>
                                 <h4>AIC Raise</h4>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="testimonial4_slide">
-                                {/* <img src={Geetha} className="img-circle img-responsive" /> */}
+                                <img src={ Anglo } className="img-circle img-responsive" />
                                 <p>We developed a great partnership with rankuhigher and their dedication to our websites evident in all aspects of our site.</p>
                                 <h4>Anglofone</h4>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="testimonial4_slide">
-                                {/* <img src={Vino} className="img-circle img-responsive" /> */}
+                                <img src={fluid} className="img-circle img-responsive" />
                                 <p>Thanks to upflow, we are able to gain real- time visibility into our customer debt and follow up on unpaid invoices if necessary.</p>
                                 <h4>Fluid Pumps</h4>
                             </div>
